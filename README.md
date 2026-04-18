@@ -24,7 +24,7 @@ Because the `node_modules` folder is excluded to save space, please follow these
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/KIIT_Capstone_SAP_Fiori.git](https://github.com/YOUR_GITHUB_USERNAME/KIIT_Capstone_SAP_Fiori.git)
+   git clone https://github.com/ashmit-sinha-30/Capstone_O2C_Dashboard.git
 2. **Navigate into the project directory:**
     ```bash
     cd KIIT_Capstone_SAP_Fiori
