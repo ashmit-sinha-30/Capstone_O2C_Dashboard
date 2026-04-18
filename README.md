@@ -27,7 +27,7 @@ Because the `node_modules` folder is excluded to save space, please follow these
    git clone https://github.com/ashmit-sinha-30/Capstone_O2C_Dashboard.git
 2. **Navigate into the project directory:**
     ```bash
-    cd KIIT_Capstone_SAP_Fiori
+    cd Capstone_O2C_Dashboard
 3. **Install the required dependencies:**
     ```bash
     npm install
