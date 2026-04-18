@@ -24,4 +24,4 @@ Because the `node_modules` folder is excluded to save space, please follow these
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ashmit-sinha-30/Capstone_O2C_Dashboard.git](https://github.com/ashmit-sinha-30/Capstone_O2C_Dashboard.git)
+   git clone https://github.com/ashmit-sinha-30/Capstone_O2C_Dashboard.git
