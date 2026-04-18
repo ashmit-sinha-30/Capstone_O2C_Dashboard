@@ -1,42 +1,37 @@
-## Application Details
-|               |
-| ------------- |
-|**Generation Date and Time**<br>Sat Apr 18 2026 20:00:12 GMT+0530 (India Standard Time)|
-|**App Generator**<br>SAP Fiori Application Generator|
-|**App Generator Version**<br>1.22.0|
-|**Generation Platform**<br>Visual Studio Code|
-|**Template Used**<br>List Report Page V2|
-|**Service Type**<br>File|
-|**Metadata File**<br>metadata.xml|
-|**Module Name**<br>salesdashboard|
-|**Application Title**<br>Order to Cash Dashboard|
-|**Namespace**<br>com.kiit.o2c|
-|**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.147.0|
-|**Enable TypeScript**<br>False|
-|**Add Eslint configuration**<br>True, see https://www.npmjs.com/package/@sap-ux/eslint-plugin-fiori-tools#rules for the eslint rules.|
-|**Main Entity**<br>SalesOrderSet|
+# SAP Fiori: Order-to-Cash (O2C) Management Dashboard
 
-## salesdashboard
+## 🎓 Project Overview
+This repository contains my final Capstone Project for the SAP Fiori Frontend Development program at KIIT. 
 
-An SAP Fiori application.
+The application is a **Sales Order Management Dashboard** that demonstrates the frontend visualization of the Order-to-Cash (O2C) business process. It was developed using **SAP Fiori Elements** and follows a strictly metadata-driven architecture. To allow for offline development and decoupled testing, the application utilizes a local JSON-based mock server to simulate an OData V2 backend service.
 
-### Starting the generated app
+## ✨ Key Features
+* **List Report Page:** Displays all incoming sales orders with a responsive data table.
+* **Smart Filter Bar:** Allows users to dynamically filter orders by `OrderID`, `CustomerName`, and `Status`.
+* **Object Page Navigation:** Users can drill down into specific sales orders to view detailed, entity-level order information via UI Facets.
+* **Metadata-Driven UI:** The user interface is generated entirely through OData XML Annotations (`UI.LineItem`, `UI.SelectionFields`, `UI.Facets`), ensuring strict adherence to SAP Fiori Design Guidelines.
 
--   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated application, run the following from the generated application root folder:
+## 🛠️ Tech Stack
+* **Frontend Framework:** SAPUI5 (Fiori Elements)
+* **Design Pattern:** List Report & Object Page Floorplan
+* **Data Protocol:** OData V2
+* **Backend Simulation:** Local UI5 Mock Server (`SalesOrderSet.json`)
+* **Environment:** Visual Studio Code with SAP Fiori Tools
+* **Runtime:** Node.js (v24.15.0+)
 
-```
-    npm start
-```
+## 🚀 How to Run the Project Locally
+Because the `node_modules` folder is excluded to save space, please follow these steps to run the application on your local machine:
 
-- It is also possible to run the application using mock data that reflects the OData Service URL supplied during application generation.  In order to run the application with Mock Data, run the following from the generated app root folder:
-
-```
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/KIIT_Capstone_SAP_Fiori.git](https://github.com/YOUR_GITHUB_USERNAME/KIIT_Capstone_SAP_Fiori.git)
+2. **Navigate into the project directory:**
+    ```bash
+    cd KIIT_Capstone_SAP_Fiori
+3. **Install the required dependencies:**
+    ```bash
+    npm install
+4. **Start the local mock server:**
+    ```bash
     npm run start-mock
-```
-
-#### Pre-requisites:
-
-1. Active NodeJS LTS (Long Term Support) version and associated supported NPM version.  (See https://nodejs.org)
-
-
+5. **The application will automatically open in your default web browser. Click on the "Order to Cash Dashboard" tile on the Fiori Launchpad to begin.**
