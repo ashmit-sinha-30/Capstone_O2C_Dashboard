@@ -25,3 +25,13 @@ Because the `node_modules` folder is excluded to save space, please follow these
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/ashmit-sinha-30/Capstone_O2C_Dashboard.git
+2. **Navigate into the project directory:**
+   ```bash
+   cd KIIT_Capstone_SAP_Fiori
+3. **Install the required dependencies:**
+   ```bash
+   npm install
+4. **Start the local mock server:**
+   ```bash
+   npm run start-mock
+The application will automatically open in your default web browser. Click on the "Order to Cash Dashboard" tile on the Fiori Launchpad to begin.
